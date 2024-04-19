@@ -7,6 +7,7 @@ import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import californiaCounties from './rewound-geojson.json';
 
+
 const Solutions = () => {
   const [date, setDate] = useState(new Date());
   const [time, setTime] = useState('12:00 PM');
