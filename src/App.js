@@ -6,7 +6,6 @@ import Solutions from './Solutions';
 import ParallaxVideo from './ParallaxVideo';
 import About from './About';
 import AnimateOnScroll from './AnimateOnScroll';
-import videoSrc from './images/climformatics.mp4';
 import Resources from './Resources';
 import graph1 from './images/climate-graph.png';
 import graph2 from './images/global-warming.webp';
@@ -30,6 +29,9 @@ function App() {
 }
 
 function AppContent() {
+  const videoSrc = "https://dl.dropboxusercontent.com/scl/fi/w5kofrvy06iw6ztn7v8q2/climformatics.mp4?rlkey=ydcvwhioghmuvq2mck4a1z0w3&st=bvn1az2w";
+
+
   return (
     <div className="App">
       <div className="white-section">

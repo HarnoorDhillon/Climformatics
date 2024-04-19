@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './ParallaxVideo.css';
-import hurricaneVideo from './images/world.mp4';
+
 
 const ParallaxVideo = () => {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset / 2); // Adjust division for effect speed
+  const hurricaneVideo = "https://dl.dropboxusercontent.com/scl/fi/hhw8czxd9u0ueq8va4nld/world.mp4?rlkey=l7z5we6ciobr4nn4f6w632bca&st=acnn6snu";
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
