@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Climformatics/static/css/main.84224675.css",
+    "main.js": "/Climformatics/static/js/main.00868aa0.js",
+    "static/js/453.bb0b8f87.chunk.js": "/Climformatics/static/js/453.bb0b8f87.chunk.js",
+    "static/media/arctic.jpg": "/Climformatics/static/media/arctic.2c0e81d1ee131cfd81bc.jpg",
+    "static/media/calseedaward.png": "/Climformatics/static/media/calseedaward.7ba6aca9948d76ce11b5.png",
+    "static/media/ocean.jpg": "/Climformatics/static/media/ocean.92082ff00ef20b219cee.jpg",
+    "static/media/drought.jpg": "/Climformatics/static/media/drought.9be61ffdeabd97d9125b.jpg",
+    "static/media/Derek Yao.jpeg": "/Climformatics/static/media/Derek Yao.9588a08fbda624eacc8f.jpeg",
+    "static/media/team.jpg": "/Climformatics/static/media/team.97f0f3e1347972d06fe7.jpg",
+    "static/media/Weijie Yang.jpeg": "/Climformatics/static/media/Weijie Yang.f3340a6b9f5f10763b67.jpeg",
+    "static/media/teamMember3Image.jpeg": "/Climformatics/static/media/teamMember3Image.6c1b849e4ad9402e8826.jpeg",
+    "static/media/Matthew.jpeg": "/Climformatics/static/media/Matthew.701e64e22fc12fe54dc6.jpeg",
+    "static/media/Fariha.jpeg": "/Climformatics/static/media/Fariha.65370e34df20adb00018.jpeg",
+    "static/media/Harnoor.jpeg": "/Climformatics/static/media/Harnoor.e662affdbdfa430bf41b.jpeg",
+    "static/media/subarna.jpg": "/Climformatics/static/media/subarna.9b83a66bb40aeb1ba3db.jpg",
+    "static/media/verge23.jpeg": "/Climformatics/static/media/verge23.713abdff53b4861c3379.jpeg",
+    "static/media/Nick Zhao.jpeg": "/Climformatics/static/media/Nick Zhao.33caa5db794bd056bddf.jpeg",
+    "static/media/divyam.jpg": "/Climformatics/static/media/divyam.cf3ad3e2245b808a723e.jpg",
+    "static/media/detelina.jpg": "/Climformatics/static/media/detelina.2544baf155dd71b27eec.jpg",
+    "static/media/Nirvik.jpeg": "/Climformatics/static/media/Nirvik.a627b1b525655d86efd1.jpeg",
+    "static/media/climate-graph.png": "/Climformatics/static/media/climate-graph.ddbf8e67cb19c5d2f986.png",
+    "static/media/ryan.jpg": "/Climformatics/static/media/ryan.a707d552f552e1a977c0.jpg",
+    "static/media/global-warming.webp": "/Climformatics/static/media/global-warming.7f0826cb85f6ea8bb62a.webp",
+    "static/media/american.png": "/Climformatics/static/media/american.a0b0d21ed31d3418c8e5.png",
+    "static/media/american-made.png": "/Climformatics/static/media/american-made.64348ac724f468e25105.png",
+    "static/media/calseed.png": "/Climformatics/static/media/calseed.24e2044ea239fb704b3f.png",
+    "static/media/chunting zheng.jpeg": "/Climformatics/static/media/chunting zheng.28cc719615c1d52d8f05.jpeg",
+    "static/media/logo.jpg": "/Climformatics/static/media/logo.5eb96127cbc4874b7f2a.jpg",
+    "index.html": "/Climformatics/index.html",
+    "main.84224675.css.map": "/Climformatics/static/css/main.84224675.css.map",
+    "main.00868aa0.js.map": "/Climformatics/static/js/main.00868aa0.js.map",
+    "453.bb0b8f87.chunk.js.map": "/Climformatics/static/js/453.bb0b8f87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84224675.css",
+    "static/js/main.00868aa0.js"
+  ]
+}
