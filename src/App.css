@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.white-section {
+  background-color: #FFFFFF; /* White background */
+  padding: 1% 0; /* Top and bottom padding */
+  text-align: left; /* Align text to the left */
+}
+
+.content-container {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Adjust the gap between the image box and the text box */
+}
+
+
+.green-box {
+  background-color: #8AAAE5; /* Light green background */
+  color: #FFFFFF; /* White text */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center content horizontally */
+  margin: 0 auto; /* Center the box horizontally */
+  padding: 20px; /* Padding inside the green box */
+  width: 70%; /* Adjust width as necessary */
+  gap: 5%; /* Space between image and text */
+  margin-right: 0%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  flex-basis: 59%;
+}
+
+.graph-box {
+  flex-basis: 40%; /* Adjust based on the desired width of the graph box */
+}
+.graph-box-image {
+  width: 100%; /* Ensures the image does not exceed the width of its container */
+  height: auto; 
+  border-radius: 10px;
+}
+.graph-box-2 {
+  flex-basis: 35%; /* Adjust based on the desired width of the graph box */
+}
+
+.graph-box-image-2 {
+  width: 100%; /* Ensures the image does not exceed the width of its container */
+  height: auto; 
+  border-radius: 10px;
+}
+
+.green-box-image {
+  width: 100%; /* Make the image responsive within its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.green-box-text {
+  flex-grow: 1; /* Allow text to fill the remaining space */
+  font-family: 'Newsreader', serif;
+  font-size: 30px;
+}
+
+.white-section-2 {
+  background-color: #FFFFFF; /* White background */
+  padding: 1% 0; /* Top and bottom padding */
+  text-align: left; /* Align text to the left */
+}
+
+.purple-box {
+  background-color: #8AAAE5; /* Light green background */
+  color: #FFFFFF; /* White text */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center content horizontally */
+  margin: 0 auto; /* Center the box horizontally */
+  padding: 20px; /* Padding inside the green box */
+  width: 60%; /* Adjust width as necessary */
+  gap: 5%; /* Space between image and text */
+  margin-left: 0%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.purple-box-text {
+  flex-grow: 1; /* Allow text to fill the remaining space */
+  font-family: 'Newsreader', serif;
+  font-size: 30px;
+}
+
+/* Initial State: Off-screen */
+.off-screen-left {
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.off-screen-right {
+  transform: translateX(50%);
+  opacity: 0;
+}
+
+/* Final State: On-screen */
+.on-screen {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.transition-all {
+  transition: transform 1s, opacity 1s;
+}
+
+.video-box {
+  background-color: #8AAAE5; /* Similar blueish background as the purple box */
+  color: #FFFFFF; /* White text */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center content horizontally */
+  padding: 20px;
+  width: 60%; /* Adjust width as necessary */
+  margin: 0% auto; /* Center the box horizontally */
+  
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0.2,0.2,0.2,0.2); /* Optional: adds a shadow for better separation */
+}
+
+.responsive-video {
+  width: 100%; /* Make video responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: rounds the corners of the video */
+}

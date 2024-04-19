@@ -1,0 +1,70 @@
+.navbar {
+    background-color: white;
+    font-family: 'Newsreader', serif;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Adjust based on your logo's size and navbar height */
+    width: auto;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-item {
+    padding: 0px 24px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+  }
+  .navbar-menu .navbar-item a {
+    color: black;
+    text-decoration: none; 
+  }
+  .navbar-item a:visited {
+    color: black; 
+  }
+  .navbar-item a:hover {
+    color: #8AAAE5; 
+  }
+  
+  .navbar-buttons .btn {
+    margin-left: 10px;
+    font-family: 'Newsreader', serif;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Todo: Transitions to buttons */
+  }
+  
+  .login {
+    background-color: #8AAAE5;
+    color: #fff;
+  }
+  
+  .trial {
+    background-color: #8AAAE5;
+    color: #fff;
+  }
+  
+  .trial:hover {
+    background-color: #8AAAE5; /* Todo: Transitions to buttons */
+  }
+  
