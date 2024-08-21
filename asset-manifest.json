@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Climformatics/static/css/main.ce54c94a.css",
-    "main.js": "/Climformatics/static/js/main.535b44e4.js",
+    "main.js": "/Climformatics/static/js/main.21683a29.js",
     "static/js/453.bb0b8f87.chunk.js": "/Climformatics/static/js/453.bb0b8f87.chunk.js",
     "static/media/earthzoom.jpeg": "/Climformatics/static/media/earthzoom.72d4d409214d600a2ce3.jpeg",
     "static/media/arctic.jpg": "/Climformatics/static/media/arctic.2c0e81d1ee131cfd81bc.jpg",
@@ -36,11 +36,11 @@
     "static/media/linkedin.webp": "/Climformatics/static/media/linkedin.4c60124886e81a0d124d.webp",
     "index.html": "/Climformatics/index.html",
     "main.ce54c94a.css.map": "/Climformatics/static/css/main.ce54c94a.css.map",
-    "main.535b44e4.js.map": "/Climformatics/static/js/main.535b44e4.js.map",
+    "main.21683a29.js.map": "/Climformatics/static/js/main.21683a29.js.map",
     "453.bb0b8f87.chunk.js.map": "/Climformatics/static/js/453.bb0b8f87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce54c94a.css",
-    "static/js/main.535b44e4.js"
+    "static/js/main.21683a29.js"
   ]
 }
