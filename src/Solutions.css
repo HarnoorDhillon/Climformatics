@@ -1,3 +1,7 @@
+.Solutions {
+  background-color: white;
+}
+
 .solutions-container {
   display: flex;
   flex-direction: column;
@@ -18,7 +22,7 @@
 .react-calendar {
   background-color: #ececec; /* Light grey color; adjust the shade as necessary */
   border: 1px solid #d3d3d3; /* Optional: adds a subtle border for better definition */
-  font-family: 'Newsreader', serif;
+  font-family: 'Syne', sans-serif;
   
 }
 
@@ -53,7 +57,7 @@
   flex-direction: column;
   align-items: center;
   margin-right: 20px;
-  font-family: 'Newsreader', serif;
+  font-family: 'Syne', sans-serif;
 }
 
 .hour-temp {
@@ -89,13 +93,13 @@
 
 .header-title {
   margin: 0; /* Removes default margin to align with the line */
-  font-family: 'Newsreader', serif;
+  font-family: 'Syne', sans-serif;
   font-size: 50px;
 }
 
 .header-last-update {
   margin: 0; /* Removes default margin */
-  font-family: 'Newsreader', serif;
+  font-family: 'Syne', sans-serif;
   white-space: nowrap; /* Keeps the update text in one line */
 }
 
@@ -115,5 +119,5 @@
 .time-selector select {
   padding: 5px;
   width: 100%;
-  font-family: 'Newsreader', serif;
+  font-family: 'Syne', sans-serif;
 }

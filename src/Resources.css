@@ -1,19 +1,19 @@
 .resources-header-section {
-    background-color: #E3EEE2;
+    background-color: #088395;
     color: black;
     font-size: 30px;
     padding: 20px;
     text-align: left;
     margin-top: 90px;
-    font-family: 'Newsreader', serif;
+    font-family: 'Syne', sans-serif;
+    color: white;
   }
   
   .resources-container {
     display: flex;
     justify-content: space-around;
-    background-color: white;
     padding: 20px 0;
-    font-family: 'Newsreader', serif;
+    font-family: 'Syne', sans-serif;
     text-align: left;
     
   }

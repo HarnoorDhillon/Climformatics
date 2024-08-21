@@ -1,26 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
-import logo from './images/logo.jpg';
+import logo from './images/newlogo.png';
 
-const Navbar = () => {
+const Navbar = ({ handleScrollToContact }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  const handleLinkClick = () => {
+    closeMenu(); // Close the menu after clicking a link
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-        <Link to="/">
-          <img src={logo} alt="Logo" />
-        </Link>
+          <Link to="/" onClick={closeMenu}>
+            <img src={logo} alt="Logo" />
+          </Link>
         </div>
-        <ul className="navbar-menu">
-          <li className="navbar-item"><Link to="/about">About</Link></li>
-          <li className="navbar-item"><Link to="/solutions">Solutions</Link></li>
-          <li className="navbar-item"><Link to="/resources">Resources</Link></li>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <span>{isMenuOpen ? '✖' : '☰'}</span>
+        </div>
+        <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
+          <li className="navbar-item"><Link to="/about" onClick={handleLinkClick}>About</Link></li>
+          <li className="navbar-item"><Link to="/solutions" onClick={handleLinkClick}>Solutions</Link></li>
+          <li className="navbar-item"><Link to="/resources" onClick={handleLinkClick}>Resources</Link></li>
+          <li className="navbar-buttons">
+            <button className="btn trial" onClick={() => { handleScrollToContact(); closeMenu(); }}>Contact Us</button>
+          </li>
         </ul>
-        <div className="navbar-buttons">
-          <button className="btn login">Login</button>
-          <button className="btn trial">Start Free Trial</button>
-        </div>
       </div>
     </nav>
   );
