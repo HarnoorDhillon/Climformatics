@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://harnoordhillon.github.io/Climformatics",
+  "homepage": "https://HarnoorDhillon.github.io/Climformatics",
   "keywords": [],
   "author": "",
   "license": "ISC",
